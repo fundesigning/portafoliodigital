@@ -1,0 +1,59 @@
+body {
+    background-color:#E4E4EF;
+    padding: 1em;
+    width: 90%;
+    height: 90%;
+    align-items: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: 60% 30% 10%;
+    grid-template-rows: minmax(60px, auto);
+    gap: 1em;
+}
+.container div{
+    padding: 1em;
+}
+h1{
+    font-family: "Autolinker Regular";
+    color: #026581;
+    font-size: 60px;
+    text-justify: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: minmax(60px, auto);
+    gap: 1em;
+}
+.grid div{
+    padding: 1em;
+    padding-top: 80px;
+}
+.menu{
+    display: grid;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    -ms-transform: rotate(25deg); /* IE 9 */
+    transform: rotate(25deg);
+}
+.texto{
+    display: grid;
+    grid-template-columns: 5% 10% 25% 60%;
+    grid-template-rows: minmax(60px, auto);
+    gap: 1em;
+    padding-top: 80px;
+}
+
+p {
+    font-family: "Baloo Tammudu 2";
+    color: #009BC5;
+    font-size: 23px;
+    line-height: 28px;
+}
+b {
+    font-family: "Baloo Tammudu 2";
+    color: #026581;
+    font-size: 20px;
+}
